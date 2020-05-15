@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <title> Bootstrap kompletering </title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="index.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script src="index.js">
+
+</script>
+
+  </head>
+
+     <body>
+
+       <nav class="navbar  navbar-expand-md bg-light justify-content-center"> <!-- Navbar expanderas genom navbar-expand,.justify-content-center centererar navbaren, bg=färg  -->
+         <ul class="navbar-nav"> <!-- Skapar navbar nav -->
+           <li class="nav-item">
+             <a class="nav-link" href="home.html"> Home </a> <!-- Länkar sidorna -->
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="about.html"> About </a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contact.html"> Kontakt </a>
+           </li>
+         </ul>
+       </nav>
+
+<br>
+<br>
+
+       <div class="container">
+     <div class="row justify-content-md-center ">  <!-- Nu centrerar jag diven-->
+        <div class="col-4 "> <!-- Nu delar jag in columnen genom col-4 -->
+          <img src="https://i.pcmag.com/imagery/reviews/05CbcW9cP4o0rqbCnVB2OFZ-31.fit_scale.size_1028x578.v_1584707546.jpg" alt="Mackbook air" class="rounded" width="360" height="200"> <!-- Nu hämtar jag bilden och stylar den -->
+        </div>
+        <div class="col border bg-info">
+          <br>
+          <h1 class="text-center"> Macbook Air </h1>
+          <p class="text-center">Kräver du inte 16 tums-skärm, vill spela eller gör något som egentligen kräver en stor desktopmaskin för rejäla slantar är det här datorn du ska ha </p>
+          <p class="text-center">Endast 17,000 kr </p>
+        </div>
+      </div>
+   </div>
+
+<br>
+<br>
+
+   <div class="container">
+ <div class="row justify-content-md-center ">  <!-- Nu centrerar jag diven-->
+    <div class="slumpa col-sm  bg-lightblue "> <!-- Nu delar jag in columnen genom col-4 -->
+  <button onclick="rabattNamn()" type="button" class="btn btn-primary d-inline" name="button"> Slumpa</button>     </div>
+    <div class="col border bg-info">
+      <br>
+      <h1 class="text-center"> Klicka på slumpknappen för att visa din rabattkod </h1>
+      <br>
+      <p class="text-center"> Gäller endast på medföljande butiker: </p>
+      <p class="text-center"> MediaMarkt, NetOnNet, Elgiganten </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+     </body>
+
+</html>

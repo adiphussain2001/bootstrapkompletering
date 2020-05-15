@@ -1,0 +1,10 @@
+body {
+  background-color: lightblue;
+}
+
+.btn{
+  background-color: pink;
+  border-radius: 90;
+  height: 40vh;
+  width: 60%;
+}
